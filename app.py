@@ -11,8 +11,8 @@ with open('tokenizer.pkl', 'rb') as handle:
 
 MAX_LEN = 200
 
-st.title("🎬 Movie Review Sentiment Analyzer")
-st.write("Enter your movie review to predict its sentiment.")
+# st.title("🎬 Movie Review Sentiment Analyzer")
+st.markdown("<h2 style='text-align: center;'>🎬 Movie Review Sentiment Analyzer</h2>", unsafe_allow_html=True)
 
 user_input = st.text_input("Enter your review:")
 
